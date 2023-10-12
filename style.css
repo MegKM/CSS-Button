@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vmin;
+    background-color: #3d1b50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    padding: 8vmin;
+    border-radius: 25%;
+    font-size: 5vmin;
+    font-family: 'Roboto', sans-serif;
+    border: 2px dotted black;
+    box-shadow: 5px 5px 5px #b34fee;
+  }
+  
+  button:hover span {
+    display: none;
+  }
+  
+  button:hover:before {
+    content: "Are you sure?";
+  }
+  
+  button:hover {
+    background-color: #9c213a;
+    color: white;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #ee4f57;
+    font-family: 'Nosifer', sans-serif;
+    text-emphasis-color: black;
+  }
+  
+  iframe {
+    border-radius: 25%;
+    width: 480px;
+    height: 480px;
+    border: 10px dotted white;
+  }
